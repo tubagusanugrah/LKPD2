@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detik</title>
+</head>
+<body>
+    <script>
+        let detik = 3660
+        jam = Math.floor (detik / 3600)
+        menit = Math.floor (detik % 3600 / 60)
+        detik = detik % 60
+
+        console.log (jam + " Jam ", menit + " Menit ", detik + " Detik ")
+    </script>
+</body>
+</html>
